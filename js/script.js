@@ -11,7 +11,7 @@ const app = new Vue({
 
     methods: {
        printList(item, array) {
-           for (let i = 0; i < 11; i++) {
+           for (let i = 0; i < 10; i++) {
                item = array[i];
                array.push(item);
            }
